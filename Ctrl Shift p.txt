@@ -1,0 +1,4 @@
+Ctrl+Shift+p - 
+envelopa o texto e dê Ctrl+Shift+p 
+clique na opção Emmet:Wrap with Abbreviation 
+e depois a tag
