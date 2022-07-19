@@ -3,30 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo - M3c19a04-ex022</title>
+    <title>Fundo - M3c19a06-ex022</title>
+
     <style>
-        html, body {
-            margin: 0;
-            padding: 0;
-            min-height: 100vh;
-            height: 100vh;
-        }
+
+        
         body {
+            height: 97vh;
+            /*
             background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
-            background-repeat: repeat-y; 
-            background-attachment: scroll;
-            background-position: right bottom;
+            background-position: center top;
+            background-repeat: no-repeat;
             background-size: cover;
-            
-            /* background: black url('imagens/wallpaper002.jpg') no-repeat fixed center center; */
+            background-attachment: fixed;
+            */
+
+            /*shorthand - background
+              color > image > position > repeat > [size] > attachment
+              obs: o background-size fazer separado. o manual falata da posição dele mais ainda não funciona.
+            */
+            background-size: cover;
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
         }
 
         main {
             background-color: white;
-            width: 400px;
+            max-width: 300px;
             margin: auto;
             padding: 10px;
+            border: 1px solid darkblue;
+            border-radius: 15px;
+            
         }
     </style>
 </head>
