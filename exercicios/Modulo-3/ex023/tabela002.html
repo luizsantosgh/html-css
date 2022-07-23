@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Tabelas - M3c21a4/5/6/7</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
@@ -34,16 +34,17 @@
         }
 
         thead > tr > th {
+            /*para travar o cabeçalho "position: stickey" e "top: -1px" tem que estar configurado */
             position: sticky;
             top: -1px;
             background-color: #383838;
         }
 
-        tbody > tr:nth-child(odd) { /* 2n-1 */
+        tbody > tr:nth-child(odd) { /*odd=impar nth-child(2n ou 2n-1) */
             background-color: white;
         }
 
-        tbody > tr:nth-child(even) { /* 2n */
+        tbody > tr:nth-child(even) { /* even=par 2n */
             background-color: lightgray;
         }
 
@@ -57,12 +58,12 @@
     <!--
         ANATOMIA PARA TABELAS GRANDES
         TABLE
-            CAPTION
-            THEAD
+            CAPTION (legenda da tabela)
+            THEAD (cabeça da tabela)
                 TR, TD, TH
-            TBODY
+            TBODY (corpo da tabela)
                 TR, TD, TH
-            TFOOT
+            TFOOT (pé da tabela)
                 TR, TD, TH
     -->
     <table>
