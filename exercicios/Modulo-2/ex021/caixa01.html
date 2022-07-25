@@ -2,34 +2,34 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Box Model (modelo de caixas) - M2c16a1-a2-a3</title>
-    <!--
-        TIPOS DE CAIXA
-
-        - box-level - sempre se inicia em outra linha e ocupa a largura da tela e faz quebrar a linha <div><h1>-<h6><p><main><header><nav><article><aside><footer><form><video>
-
-        - inline-level - se inicia imediatamente ao lado de outro seletor e não ocupa a largura da linha e sim do seletor e não quebra linha <span><a><code><small><strong><em><sup>-<sub><label><button><input><select>
-    -->
+    <title>Modelo de Caixas</title>
     <style>
-        h1 {
-            background-color: lightgrey;
+        h1 { /* box-level */
+            background-color: lightgray;
+
             height: 300px;
             width: 300px;
+
+            border: 10px solid darkslategray;
+
+            padding: 10px;
+
+            margin: 20px auto 40px auto;
+
+            outline: 5px dashed salmon;
+        }
+
+        a { /* inline-level */
+
             border-width: 10px;
             border-style: solid;
-            border-color: darkslategray;
+            border-color: red;
+
             padding-top: 10px;
             padding-right: 10px;
             padding-bottom: 10px;
             padding-left: 10px;
-        }
-
-        a {
-            border-width: 10px;
-            border-style: solid;
-            border-color: red;
         }
     </style>
 </head>
