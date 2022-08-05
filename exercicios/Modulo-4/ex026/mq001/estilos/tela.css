@@ -37,3 +37,8 @@ article {
     display: block;
     margin: auto;
 }
+
+article p {
+    padding: 10px;
+    text-align: justify;
+}
